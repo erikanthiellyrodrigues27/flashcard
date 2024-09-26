@@ -1,13 +1,13 @@
 criaCartao(
-    'Felicidades',
-    'O que precisa para ser feliz?',
-    ' Fazer o que gosta!!!'
+    'Saúde',
+    'Qual a doença causada pela falta de vitamina c?',
+    ' Escorbuto'
 )
 
 criaCartao(
     'Informática',
-    'Qual o melhor canal para aprender informática',
-    '@rasinformática'
+    'Quanto tempo demora para que o sangue demora para percorer o corpo todo?',
+    '30 Segundos'
 )
 
 criaCartao(
