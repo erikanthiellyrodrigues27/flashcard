@@ -81,7 +81,7 @@ body {
 .cartao__conteudo__resposta {
     transform: rotateY(180deg);
     background-color: black;
-    border: 4px solid green;
+    border: 4px solid rgb(203, 131, 224);
 }
 
 footer {
@@ -92,7 +92,7 @@ footer {
     bottom: 0;
     width: 100%;
     height: 3rem;
-    filter: drop-shadow(1px 1px 20px rgb(105, 10, 248));
+    filter: drop-shadow(1px 1px 20px rgb(156, 57, 221));
     border-radius: 10px;
     font-family: monospace;
     font-size: 22px;
@@ -154,7 +154,7 @@ h1{
     right: 5px;
     width: 5px;
     height: 5px;
-    background: #000;
+    background: #8f41e7;
     border-radius: 50%;
   }
   
@@ -212,7 +212,7 @@ h1{
   }
   
   .radio > label > svg {
-    fill: #666;
+    fill: #2610eb;
     transition: fill 0.3s ease;
   }
   
@@ -222,7 +222,7 @@ h1{
     position: absolute;
     width: 6px;
     height: 6px;
-    background-color: #ff9e0b;
+    background-color: #a60be4;
     border-radius: 50%;
     opacity: 0;
     transform: scale(0);
@@ -257,20 +257,20 @@ h1{
   
   /* Star glow and animation on hover */
   .radio > label:hover > svg {
-    fill: #ff9e0b;
-    filter: drop-shadow(0 0 15px rgba(255, 158, 11, 0.9));
+    fill: #e12ef1;
+    filter: drop-shadow(0 0 15px rgba(11, 145, 255, 0.9));
     animation: shimmer 1s ease infinite alternate;
   }
   
   .radio > input:checked + label > svg {
-    fill: #ff9e0b;
-    filter: drop-shadow(0 0 15px rgba(255, 158, 11, 0.9));
+    fill: #c981df;
+    filter: drop-shadow(0 0 15px rgba(154, 73, 179, 0.9));
     animation: pulse 0.8s infinite alternate;
   }
   
   .radio > input:checked + label ~ label > svg,
   .radio > input:checked + label > svg {
-    fill: #ff9e0b; /* Highlight the stars */
+    fill: #18d2f3; /* Highlight the stars */
   }
   
   @keyframes pulse {
@@ -299,24 +299,24 @@ h1{
   
   @keyframes shimmer {
     0% {
-      filter: drop-shadow(0 0 10px rgba(255, 158, 11, 0.5));
+      filter: drop-shadow(0 0 10px rgba(59, 205, 241, 0.5));
     }
     100% {
-      filter: drop-shadow(0 0 20px rgba(255, 158, 11, 1));
+      filter: drop-shadow(0 0 20px rgb(205, 49, 236));
     }
   }
   
   .radio > input:checked + label:hover,
   .radio > input:checked + label:hover ~ label {
-    fill: #e58e09;
+    fill: #c009e5;
   }
   
   .radio > label:hover,
   .radio > label:hover ~ label {
-    fill: #ff9e0b;
+    fill: #9749b6;
   }
   
   .radio input:checked ~ label svg {
-    fill: #ffa723;
+    fill: #7baceb;
   }
   

@@ -1,23 +1,23 @@
 criaCartao(
-    'Saúde',
+    'Doença',
     'Qual a doença causada pela falta de vitamina c?',
     ' Escorbuto'
 )
 
 criaCartao(
-    'Informática',
-    'Quanto tempo demora para que o sangue demora para percorer o corpo todo?',
+    'Saúde',
+    'Quanto tempo demora para que o sangue percorra o corpo todo?',
     '30 Segundos'
 )
 
 criaCartao(
-    'Qual é a melhor turma do CERB',
-    'A que mais se dedica as aulas do Prof. Rafael?',
-    'Estou em dúvida'
+    'Anatomia',
+    'Quantas cavidades possui um coração humano?',
+    'Quatro'
 )
 
 criaCartao(
-    'Palmeiras',
-    'Quantos titulo mundial o palmeiras têm?',
-    'Nenhum 🤣🤣🤣'
+    'Sistema',
+    'Qual parte do cérebro é responsavel por regular a temperatura do corpo?',
+    'Hipotálamo'
 )
